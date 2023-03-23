@@ -1,17 +1,17 @@
 import os
 
 class Config(object):
-    API_ID = int(os.environ.get("APP_ID", "6435225"))
-    API_HASH = os.environ.get("API_HASH", "4e984ea35f854762dcde906dce426c2d")
-    BOT_TOKEN = os.environ.get("BOT_TOKEN", "")
-    STRING_SESSION = os.environ.get("STRING_SESSION", "")
+    API_ID = int(os.environ.get("APP_ID", "15954332"))
+    API_HASH = os.environ.get("API_HASH", "85adea6f1eaf068b707703b4846a9ced")
+    BOT_TOKEN = os.environ.get("BOT_TOKEN", "5442361557:AAEB4HotJ0IsNTQjtSZIuvx8qNOVswkvupM")
+    STRING_SESSION = os.environ.get("STRING_SESSION", "1ApWapzMBu6Piur2bFebsJzFrOialx3Mo7VLBuGc18fiDBiL3AmECMy_5IvMfC2jkk8laMBdbBi8Ee7fJTpyfnFuGpx9_uOScfuFn0RBlmt5-D4c6Y4jSjVTKc12czDdl67p_qqvU-IkJagfu5tDxYa9AZtqsl-WOvTBTnMfjuIR_3TF7K7DL11AQ2C1fsSQpntllgz_bgxtf3OLvYlp8NYslQ9kODXARg-_d5AX_Qj3lKV7Kz60QK41kOYIOqWI1v7Jusv4RYAdAEFewtT8oQcAUV8XGW1MYdcaB59KQ6XUp0Qjq98IU9vVVi3t1B8_xDgJGR2JPDqD0yfhEnC48PPr0GYHr4=")
     MANAGEMENT_MODE = os.environ.get("MANAGEMENT_MODE", True)
     HEROKU_MODE = os.environ.get("HEROKU_MODE", None)
-    BOT_USERNAME = os.environ.get("BOT_USERNAME", "")
+    BOT_USERNAME = os.environ.get("BOT_USERNAME", "AyselBot")
     SUPPORT = os.environ.get("SUPPORT", "TheSupportChat") # Your Support
     CHANNEL = os.environ.get("CHANNEL", "TheUpdatesChannel") # Your Channel
     START_IMG = os.environ.get("START_IMG", "https://telegra.ph/file/3d8ecee0ba7dddfc6fce4.jpg")
     CMD_IMG = os.environ.get("CMD_IMG", "https://telegra.ph/file/66518ed54301654f0b126.png")
-    ASSISTANT_ID = int(os.environ.get("ASSISTANT_ID", "")) # telegram I'd not Username
+    ASSISTANT_ID = int(os.environ.get("ASSISTANT_ID", "5508658149")) # telegram I'd not Username
     AUTO_LEAVE_TIME = int(os.environ.get("AUTO_LEAVE_ASSISTANT_TIME", "54000")) # in seconds
     AUTO_LEAVE = os.environ.get('AUTO_LEAVING_ASSISTANT', None) # Change it to "True"
